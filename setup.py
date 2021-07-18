@@ -9,7 +9,7 @@ setuptools.setup(
     author="Jorge Riveros",
     author_email="christian.riveros@outlook.com",
     description='A Python package for cocuni random numbers generation',
-    url="https://github.com/pypa/amira-data",
+    url="https://github.com/cocuni80/package",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
