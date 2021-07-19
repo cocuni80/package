@@ -1,0 +1,10 @@
+Windows -> python -m venv env
+MacOS -> virtualenv env
+  source env/bin/activate
+
+python -m pip install --upgrade setuptools wheel
+python setup.py sdist bdist_wheel
+pip install cocuni_module-0.1-py3-none-any.whl
+
+python -m pip install --upgrade twine
+twine upload dist/*
