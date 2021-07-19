@@ -7,7 +7,7 @@ INSTALL_REQUIRES = ['requests']
 
 setuptools.setup(
     name="cocuni_module",
-    version="0.1",
+    version="0.2",
     author="Jorge Riveros",
     author_email="christian.riveros@outlook.com",
     license='MIT',
